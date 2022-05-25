@@ -1,5 +1,5 @@
-CREATE DATABASE db_ecommerce;
 
+CREATE DATABASE db_ecommerce;
 USE db_ecommerce;
 
 CREATE TABLE tb_produtos(
