@@ -53,9 +53,6 @@ SELECT * from tb_produtos where nome LIKE "%c%";
 SELECT * FROM tb_produtos INNER JOIN tb_categorias
 ON tb_categorias.id = tb_produtos.categoria_id;
 
-SELECT * FROM tb_produtos INNER JOIN tb_usuarios
-ON tb_usuarios.id = tb_produtos.usuario_id;
 
 SELECT * FROM tb_produtos 
 INNER JOIN tb_categorias ON tb_categorias.id = tb_produtos.categoria_id
-INNER JOIN tb_usuarios ON tb_usuarios.id = tb_produtos.usuario_id;
